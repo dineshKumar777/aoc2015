@@ -5,13 +5,13 @@ const parseInput = (rawInput: string) => rawInput;
 const part1 = (rawInput: string) => {
   const input = parseInput(rawInput);
   let currentFloor = processFloor(input);
-  return currentFloor.toString();
+  return currentFloor;
 };
 
 const part2 = (rawInput: string) => {
   const input = parseInput(rawInput);
   let basementIndex = processFloor(input, true);
-  return basementIndex.toString();
+  return basementIndex;
 };
 
 const processFloor = (floorInput: string, findBasementPos: boolean = false) => {
@@ -29,11 +29,11 @@ const processFloor = (floorInput: string, findBasementPos: boolean = false) => {
 
     // flag to only return for part 2
     if (currentFloor === -1 && findBasementPos) {
-      return (index + 1).toString();
+      return index + 1;
     }
   }
 
-  return currentFloor.toString();
+  return currentFloor;
 };
 
 run({
@@ -41,19 +41,19 @@ run({
     tests: [
       {
         input: `)())())`,
-        expected: "-3",
+        expected: -3,
       },
       {
         input: `(())`,
-        expected: "0",
+        expected: 0,
       },
       {
         input: `(()(()(`,
-        expected: "3",
+        expected: 3,
       },
       {
         input: `))(`,
-        expected: "-1",
+        expected: -1,
       },
     ],
     solution: part1,
@@ -62,7 +62,7 @@ run({
     tests: [
       {
         input: `()())`,
-        expected: "5",
+        expected: 5,
       },
     ],
     solution: part2,
