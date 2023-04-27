@@ -66,7 +66,18 @@ const calculateWire = (wireName: string) => {
 const part2 = (rawInput: string) => {
   const input = parseInput(rawInput);
 
-  return;
+  input.forEach((instruction) => {
+    const parsedInstruction = parseInstruction(instruction);
+
+    WIRES.set(parsedInstruction.destination, {
+      command: parsedInstruction.command,
+      args: parsedInstruction.args,
+    });
+  });
+
+  WIRES.set("b", 3176);
+
+  return calculateWire("a");
 };
 
 run({
