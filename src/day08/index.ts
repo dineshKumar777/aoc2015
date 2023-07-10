@@ -53,6 +53,8 @@ const part2 = (rawInput: string) => {
 };
 
 run({
+  // for some reason, aoc test input is not matching for x format
+  // but this is working
   part1: {
     tests: [
       {
