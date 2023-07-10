@@ -120,9 +120,9 @@ Both parts: 57.714ms
 
 ```
 Day 08
-Time part 1: 17.589ms
+Time part 1: 115.639ms
 Time part 2: -
-Both parts: 17.589ms
+Both parts: 115.639ms
 ```
 
 ```
@@ -246,7 +246,7 @@ Both parts: -
 
 ```
 Total stars: 15/50
-Total time: 10492.193ms
+Total time: 10590.243ms
 ```
 
 <!--/RESULTS-->
