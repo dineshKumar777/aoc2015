@@ -20,8 +20,8 @@ reference: [blogpost with explanations](https://blog.ghaiklor.com/2016/02/15/adv
 [![Day](https://badgen.net/badge/05/%E2%98%85%E2%98%85/green)](src/day05)
 [![Day](https://badgen.net/badge/06/%E2%98%85%E2%98%85/green)](src/day06)
 [![Day](https://badgen.net/badge/07/%E2%98%85%E2%98%85/green)](src/day07)
-[![Day](https://badgen.net/badge/08/%E2%98%85%E2%98%86/yellow)](src/day08)
-![Day](https://badgen.net/badge/09/%E2%98%86%E2%98%86/gray)
+[![Day](https://badgen.net/badge/08/%E2%98%85%E2%98%85/green)](src/day08)
+[![Day](https://badgen.net/badge/09/%E2%98%85%E2%98%85/green)](src/day09)
 ![Day](https://badgen.net/badge/10/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/11/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/12/%E2%98%86%E2%98%86/gray)
@@ -121,15 +121,15 @@ Both parts: 57.714ms
 ```
 Day 08
 Time part 1: 115.639ms
-Time part 2: -
-Both parts: 115.639ms
+Time part 2: 22.484ms
+Both parts: 138.123ms
 ```
 
 ```
 Day 09
-Time part 1: -
-Time part 2: -
-Both parts: -
+Time part 1: 159.508ms
+Time part 2: 163.967ms
+Both parts: 323.475ms
 ```
 
 ```
@@ -245,8 +245,8 @@ Both parts: -
 ```
 
 ```
-Total stars: 15/50
-Total time: 10590.243ms
+Total stars: 18/50
+Total time: 10936.201ms
 ```
 
 <!--/RESULTS-->
